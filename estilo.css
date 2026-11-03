@@ -12,5 +12,16 @@ main{
 main > article {
     border : 1px solid red;
     resize: both;
-    overflow: scroll;
+    overflow: auto;
+}
+
+main > article {
+    display: grid;
+    place-items: center;
+
+}
+
+h1{
+    background-color: black;
+    color: white;
 }
